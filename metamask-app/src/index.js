@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './components/Home/Home';
-import Find from './components/Find/Find';
+import Batteries from './components/Batteries/Batteries';
 import Details from './components/Details/Details';
 import Create from './components/Create/Create';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/find",
-        element: <Find />,
+        path: "/batteries",
+        element: <Batteries />,
       },
       {
         path: "/create",

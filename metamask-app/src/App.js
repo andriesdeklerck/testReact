@@ -13,7 +13,7 @@ const App = () => {
               <a href={`/home`}>Home</a>
             </li>
             <li>
-              <a href={`/find`}>Find Battery</a>
+              <a href={`/batteries`}>Batteries</a>
             </li>
             <li>
               <a href={`/create`}>Create Battery</a>
